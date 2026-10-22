@@ -52,6 +52,8 @@ Trivial fixes (typos, formatting, broken links) do not need an RFD.
    the `discussion:` field.
 7. **Report back** with the file path, a 2–3 line summary, and the open
    questions, then wait.
+8. **Ask for author email** with options from existing rfd author emails. `git config get user.email` stays one of the options.
+9. **Ask for PR number for discussion** url, allow leaving empty.
 
 ## Writing guidance
 
@@ -102,10 +104,12 @@ from the plan.
 ```markdown
 # RFDs
 
-| RFD | Title | State | Discussion |
-|---|---|---|---|
-| [1](0001-aws-infrastructure-setup.md) | AWS infrastructure setup | discussion | |
-| [2](0002-gitleaks-pre-commit-hook.md) | Gitleaks pre-commit hook | discussion | |
+| RFD | Author | Created | Last modified | Discussion |
+| --- | --- | --- | --- | --- |
+| [0001: AWS Infrastructure setup](0001-aws-infrastructure-setup.md) | debdut <debdut@at16th.com> | 2026-10-22 | 2026-10-22 | [#4](https://github.com/At16th/infra/pull/4) |
+| [0002: Gitleaks pre-commit hook](0002-gitleaks-pre-commit-hook.md) | debdut <debdut@at16th.com> | 2026-10-22 | 2026-10-22 | [#4](https://github.com/At16th/infra/pull/4) |
+| [0003: IaC misconfiguration scanning with Checkov](0003-iac-misconfiguration-scanning-with-checkov.md) | debdut <debdut@at16th.com> | 2026-10-22 | 2026-10-22 | [#4](https://github.com/At16th/infra/pull/4) |
+| [0004: AWS budgets](0004-aws-budgets.md) | debdut <debdut@at16th.com> | 2026-10-22 | 2026-10-22 | [#4](https://github.com/At16th/infra/pull/4) |
 ```
 
 Keep rows sorted by number.

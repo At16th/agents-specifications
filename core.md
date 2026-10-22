@@ -53,7 +53,7 @@ as an RFD.
 - All cloud changes go through infrastructure as code (OpenTofu). Never change
   cloud resources by hand or with ad hoc CLI write commands. Read-only CLI
   calls are fine.
-- Never run `tofu apply` or `tofu destroy` yourself. Run `plan`, show the
+- Never run `tofu apply` or `tofu destroy` yourself. Ask to run `plan`, show the
   result, and let the user apply.
 - Use the CLI profile the repo's `AGENTS.md` names for each task. Never switch
   to a more privileged profile to get past an access-denied error. Report it
