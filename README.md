@@ -11,7 +11,7 @@ cat >> AGENTS.md <<'EOF'
 Follow the shared standards in `.agents/core.md` before doing anything else.
 EOF
 cat >> CLAUDE.md <<'EOF'
-@AGENTS.md
+Read vendor agnostic `AGENTS.md` file.
 EOF
 ```
 
